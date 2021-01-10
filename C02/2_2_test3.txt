@@ -1,0 +1,6 @@
+>>> num1 = input("num1 is :")
+num1 is :25
+>>> num2 = input("num2 is :")
+num2 is :30
+>>> int(num1)+int(num2)
+55

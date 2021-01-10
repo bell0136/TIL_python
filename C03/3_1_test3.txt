@@ -1,0 +1,8 @@
+name = input("이름을 입력하시오")
+enter = input("소속기관을 입력하시오")
+birth = input("출생년도를 입력하시오")
+birth = int(birth)
+age = (2017-birth+1)
+print("name is ",name)
+print("enter is ",enter)
+print("age is ",age)

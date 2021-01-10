@@ -1,0 +1,6 @@
+>>>name = "Esther"
+>>> age = 19
+>>> print('My name is ',name,', and ',age,'-years old.')
+My name is  Esther , and  19 -years old.
+>>> print("My name is ",name,", and ",age,"-years old.")
+My name is  Esther , and  19 -years old.

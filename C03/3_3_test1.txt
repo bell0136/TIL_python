@@ -1,0 +1,8 @@
+kor = input("korean score is ")
+math = input("math score is ")
+eng = input("eng score is ")
+avg = (float(kor)+float(math)+float(eng))/3
+if avg >= 60 :
+    print("PASS!")
+else:
+    print("NON-PASS!")

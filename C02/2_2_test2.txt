@@ -1,0 +1,6 @@
+>>> name = input("what's your name?")
+what's your name?mattie
+>>> age = input("How old are you?")
+How old are you?25
+>>> print('My name is ',name,'and ',age,'-years old')
+My name is  mattie and  25 -years old

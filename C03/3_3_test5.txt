@@ -1,0 +1,13 @@
+num1 = float(input("num1 is "))
+num2 = float(input("num2 is "))
+num3 = float(input("num3 is "))
+if num1 > num2 :
+    if num1 > num3 : 
+        print("the best is ",num1)
+    else : 
+        print("the best is ",num3)
+elif num1< num2 :
+    if num2 > num3 :
+        print("the best is ",num2)
+    else : 
+        print("the best is ",num3)

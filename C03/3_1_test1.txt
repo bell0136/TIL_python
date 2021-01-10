@@ -1,0 +1,8 @@
+korean = input("korean score is")
+korean = float(korean)
+mathScore = input("math score is")
+mathScore = float(mathScore)
+english = input("english score is")
+english = float(english)
+average = (korean + mathScore + english)/3
+print("average is ",average)  

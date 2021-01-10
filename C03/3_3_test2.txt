@@ -1,0 +1,11 @@
+kor = float(input("korean score is "))
+math = float(input("math score is "))
+eng = float(input("eng score is "))
+avg = (kor+math+eng)/3
+ 
+if (avg >= 60 and kor>=50 and eng >= 50 and math >= 50):
+    print("PASS!")
+elif (kor < 50 or eng < 50 or math < 50):
+    print("NON-PASS!") 
+elif avg < 60:
+    print("NON-PASS!")
