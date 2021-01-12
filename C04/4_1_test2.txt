@@ -1,0 +1,25 @@
+birthDate=input("생년월일을 입력하시오.")
+year = birthDate[0:4]
+month = int (birthDate[4:6])
+day = birthDate[6:]
+print("year is ",year)
+print("month is ",month)
+print("day is ",day)
+
+
+if month in [ 1,3 ,5 ,7 ,8 ,10 ,12 ]: 
+    print("31일까지")
+elif month == 2 :
+    print("28일 혹은 29일까지")
+elif month in [4,6,9,11]:
+    print("30일까지")
+else :
+    print("error")    
+
+if birthDate > "20170901" : 
+    print("나이를 계산할 수 없습니다.")
+else : 
+    age = 2017 - int(year)
+    if month > 9 :
+        age = age - 1
+    print("나이는 ",age,"입니다")    

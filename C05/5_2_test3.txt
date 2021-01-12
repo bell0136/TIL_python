@@ -1,0 +1,7 @@
+name = "Peter rabbit"
+count = 0
+for char in name :
+    print(char)
+    if char != " " :
+        count+=1
+print(count)

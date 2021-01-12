@@ -1,0 +1,6 @@
+i = int(input("input value : "))
+index = 0
+if i != 99999 :
+    while (index < i) :
+        index += 1
+        print("i is ",i)

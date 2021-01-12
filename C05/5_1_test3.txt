@@ -1,0 +1,4 @@
+index = "n"
+while index != "y" :   
+    print("Do you want to quit")
+    index = input("input value : ")

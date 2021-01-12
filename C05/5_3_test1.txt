@@ -1,0 +1,14 @@
+name = input("input String : ")
+letter = input("위치를 찾을 한 글자를 입력하시오 : ")
+count = 0
+check = 0
+for char in name :
+    if char == letter :
+        check = 1
+        break  
+    count+=1 
+
+if(check == 1) :
+    print(letter,"는 ",name,"의 ",count,"번째에 위치합니다" ) 
+else :
+    print(letter,"는 ",name,"내에 없습니다. " )            
