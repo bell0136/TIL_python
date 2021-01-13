@@ -1,0 +1,7 @@
+age = int (input("input value : "))
+
+while age < 1 or age > 100 :
+    print("다시 입력해주세요")
+    age = int (input("input value : "))
+
+print("age is ",age)

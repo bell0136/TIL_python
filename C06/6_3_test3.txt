@@ -1,0 +1,9 @@
+import sys
+
+while True :
+    try : 
+        age = int (input("input value : "))
+        break
+    except ValueError :
+        print("처리할 수 없는 문자가 입력되었습니다.")
+print("age is ",age)
