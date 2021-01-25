@@ -1,0 +1,13 @@
+from datetime import date
+
+birthday = input("your birthday is ")
+birthday = birthday.split()
+today = date.today()
+birthday = date(today.year, int(birthday[0]), int(birthday[1]))
+
+due = birthday - today 
+if due.days < 0 :
+    next_birthday = date(today.year + 1, birthday.month,birthday.day)
+    due = next_birthday - today
+
+print("생일까지 남은 날짜는 : ",due.days)

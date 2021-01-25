@@ -1,0 +1,9 @@
+string = input("input string")
+
+list = string.split()
+remove_string = input("remove string : ")
+list.remove(remove_string)
+print(list)
+append_string = input("append string : ")
+list.append(append_string)
+print(list)

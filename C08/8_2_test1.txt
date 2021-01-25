@@ -1,0 +1,5 @@
+def multiples(times1,times2) : 
+    result = times1*times2
+    return result
+
+print(multiples(2,4))

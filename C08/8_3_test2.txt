@@ -1,0 +1,8 @@
+import random
+def randomBox(a,b) : 
+    r = random.randrange(a,b)
+    c=chr(65+r)
+    print(r,c)
+
+for i in range(10) :
+    randomBox(i+1,i+10)

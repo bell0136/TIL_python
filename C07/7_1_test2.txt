@@ -1,0 +1,6 @@
+string = input("input string :")
+letter = input("change word : ")
+letter_length = len(letter)
+letter_start = string.find(letter)
+print(string[0:letter_start]+string[letter_start:letter_start+letter_length].upper()
++string[letter_start+letter_length:])

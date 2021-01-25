@@ -1,0 +1,8 @@
+danList = []
+ 
+for dan in range(10) :
+    indexList = []  
+    for index in range(10) : 
+       indexList.append(dan*index)
+    danList.append(indexList)
+print(danList)

@@ -1,0 +1,12 @@
+from copy import *
+numlist1 = [1,3,5,7,9]
+numshallow = numlist1
+numdeep = deepcopy(numlist1)
+print("num shallow is ",numshallow)
+print("num deep is ",numdeep)
+
+numshallow.append(11)
+numdeep.append(22)
+print("num shallow is ",numshallow)
+print("num deep is ",numdeep)
+print("num list is ",numlist1)

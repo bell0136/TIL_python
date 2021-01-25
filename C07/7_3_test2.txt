@@ -1,0 +1,13 @@
+list = []
+
+
+count = 0
+while True : 
+    string = input("input string :")  
+    if string == 'zzz' :
+        break
+    else :
+        list.append(string) 
+        count += 1
+
+print(list)

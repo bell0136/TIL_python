@@ -1,0 +1,7 @@
+import math
+angle = float(input("input angle"))
+rad = math.radians(angle)
+value_sin = math.sin(rad)
+value_cos = math.cos(rad)
+value_tan = math.tan(rad)
+print("sin is ",value_sin,"cos is ",value_cos,"tan is ",value_tan)

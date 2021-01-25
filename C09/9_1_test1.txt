@@ -1,0 +1,11 @@
+str = input("30 of letter : ")
+alpha = 0
+upper = 0
+lower = 0
+for i in str :
+    alpha = alpha+i.isalpha()
+    upper = upper+i.isupper()
+    lower = lower+i.islower()
+
+
+print("alpha is ",alpha,"upper is ",upper,"lower is ",lower)

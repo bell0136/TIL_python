@@ -1,0 +1,12 @@
+list1 = ['apple','banana','melon','lemon']
+list2 = ['green','pink','lemon','blue']
+
+
+for i in range(len(list1)) :
+    if list1[i] in list2 : 
+        list2.remove(list1[i])
+
+list3 = list1 + list2
+print(list3)
+list3.sort()
+print(list3)

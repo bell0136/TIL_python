@@ -1,0 +1,8 @@
+import random
+def r_picks(list, num) : 
+    for i in range(num) :
+        print(random.choice(list))
+
+lists = [3,1,7,11,25,5,4,9]
+
+r_picks(lists,3)

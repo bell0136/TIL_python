@@ -1,0 +1,9 @@
+index = int(input("input index"))
+newlist = []
+list = []
+for i in range(index) : 
+    string = input("input string")
+    list = [string]
+    newlist = newlist + list
+
+print(newlist)_
