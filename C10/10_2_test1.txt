@@ -1,0 +1,9 @@
+birthdate = {}
+for i in range(5) :
+    name = input("input name")
+    birth = input("input birth")
+    birthdate[name] = birth
+
+
+name1 = input("input name")
+print(birthdate[name1])

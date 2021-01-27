@@ -1,0 +1,16 @@
+import random
+
+
+s= 'abcdefghijklmnopqrstuvwxyz'
+
+base_s=random.sample(s,26)
+password = []
+password_hint = list(zip(base_s,s))
+str = input("input : ")
+for letter in str :
+    for i in range(26) :
+        if letter == password_hint[i][0]:
+            password.append(password_hint[i][1])
+        
+
+print(password)

@@ -1,0 +1,11 @@
+birthdate = {}
+for i in range(5) :
+    name = input("input name")
+    birth = input("input birth")
+    birthdate[name] = birth
+
+
+
+delete_name = input("input name")
+birthdate.pop(delete_name)
+print(birthdate)

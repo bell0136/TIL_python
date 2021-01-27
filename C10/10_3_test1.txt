@@ -1,0 +1,12 @@
+birthdate = {}
+
+def phone() :
+    name = input("input name")
+    birth = input("input birth")
+    birthdate[name] = birth
+for i in range(5) :
+    phone()
+
+
+print(birthdate.keys())
+print(birthdate.values())
